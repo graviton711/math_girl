@@ -109,7 +109,7 @@ const App: React.FC = () => {
     <>
       {/* Audio elements are now top-level and will not be unmounted on state changes. */}
       <audio ref={audioRef} loop preload="auto">
-        <source src="/background_music.mp3" type="audio/mpeg" />
+        <source src="/voices/background_music.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
 
